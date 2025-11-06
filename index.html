@@ -1,140 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio personnel de [Ton Nom]. Découvrez mes compétences, mon parcours et mes aspirations professionnelles.">
-    <meta name="author" content="[Ton Nom]">
-    <title>[Ton Nom] - Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Fichier CSS à personnaliser -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Lilian Bache</title>
+  <meta name="description" content="Portfolio de Lilian Bache — parcours, compétences et aspirations en événementiel et IA." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Section 1: Introduction / Qui suis-je ? -->
-    <header id="intro">
-        <div class="container">
-            <h1>Bonjour, je suis [Ton Nom]</h1>
-            <p>Un jeune professionnel souriant, passionné par le sport, le voyage et toujours prêt à relever de nouveaux défis !</p>
-        </div>
-    </header>
 
-    <!-- Section 2: Identité & Personnalité -->
-    <section id="identite">
-        <div class="container">
-            <h2>Qui suis-je ?</h2>
-            <p>Je suis quelqu’un de toujours souriant et bienveillant, passionné par le sport (en particulier le foot) et le voyage. J'aime découvrir de nouveaux pays et partager ces expériences avec les autres.</p>
-            <h3>Trois mots pour me décrire : </h3>
-            <ul>
-                <li>À l’écoute</li>
-                <li>Patient</li>
-                <li>Sérieux</li>
-            </ul>
-            <h3>Mes valeurs :</h3>
-            <ul>
-                <li>Curiosité</li>
-                <li>Esprit d’équipe</li>
-                <li>Bienveillance</li>
-            </ul>
-            <h3>Anecdote marquante :</h3>
-            <p>Lors de mon bénévolat pour un tournoi de golf, j’ai appris l’importance du travail en équipe et de la patience pour garantir une expérience optimale pour les participants. Cela m'a renforcé dans l'idée que chaque détail compte pour atteindre un objectif commun.</p>
+  <header class="site-header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Navigation principale">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">LB</div>
+        <strong>Lilian Bache</strong>
+      </div>
+      <div class="nav-links">
+        <a href="#qui-suis-je">Qui suis-je</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#competences">Compétences</a>
+        <a href="#reussites">Réussites</a>
+        <a href="#aspirations">Aspirations</a>
+        <a href="#conclure">Conclusion</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Réfléchir pour construire un bon portfolio perso</h1>
+        <p class="lead">Découvre mon parcours, mes compétences et mes projets — un profil orienté événements &amp; IA.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#qui-suis-je">En savoir plus</a>
+          <a class="btn outline" href="#conclure">Contact / CV</a>
         </div>
+      </div>
     </section>
 
-    <!-- Section 3: Parcours Académique & Extrascolaire -->
-    <section id="parcours">
-        <div class="container">
-            <h2>Parcours</h2>
-            <h3>Formations :</h3>
-            <p>Je suis diplômé d’un Bac général SVT Maths et actuellement en Licence 3 à l’Ileps, où je continue à développer mes compétences en gestion de projet et en communication.</p>
+    <section class="container content">
+      <!-- 1. Qui suis-je -->
+      <article class="card" id="qui-suis-je" tabindex="-1" aria-labelledby="qs-title">
+        <h2 id="qs-title">1. Qui suis-je ? (Identité &amp; personnalité)</h2>
 
-            <h3>Matière marquante :</h3>
-            <p>Les cours de sport ont été essentiels pour moi, non seulement pour leur aspect physique, mais aussi pour les valeurs de discipline et de travail en équipe qu'ils véhiculent.</p>
+        <h3>• Comment te présenterais-tu en quelques phrases à quelqu’un qui ne te connaît pas ?</h3>
+        <p>Je suis quelqu’un de curieux et ouvert d’esprit, toujours en quête de nouvelles connaissances. J’aime apprendre, découvrir et relever de nouveaux défis. Ces expériences m’ont permis de développer une solide capacité d’organisation, une bonne gestion logistique et un véritable esprit d’équipe dans des environnements dynamiques et parfois concurrentiels. Je fais preuve de persévérance et d’adaptabilité, deux qualités essentielles pour mener à bien chaque projet.</p>
 
-            <h3>Expériences associatives et professionnelles :</h3>
-            <p>J’ai été bénévole pour un tournoi de golf et j’ai acquis une vision pratique du monde du travail à travers des missions de vente et de relation client. Cela m'a permis de développer des compétences précieuses en communication et en négociation.</p>
+        <h3>• Trois mots (ou qualités) pour ta personnalité dans un contexte professionnel ?</h3>
+        <p><strong>Proactif, dynamique, sociable.</strong></p>
+
+        <h3>• Tes valeurs principales ?</h3>
+        <p>Curiosité, rigueur et esprit d’équipe. J’accorde aussi de l’importance à la patience et à la bienveillance dans la collaboration.</p>
+
+        <h3>• Anecdote</h3>
+        <p>En terminale, j’ai co-organisé *La Nuit du Volley*, un tournoi de 19h à 23h avec poules et phases éliminatoires. J’y ai appris la coordination d’équipe, la gestion des imprévus et la satisfaction de mener un projet collectif à son terme.</p>
+      </article>
+
+      <!-- 2. Parcours -->
+      <article class="card" id="parcours" tabindex="-1" aria-labelledby="parcours-title">
+        <h2 id="parcours-title">2. Parcours (académique &amp; extrascolaire)</h2>
+
+        <h3>• Diplômes</h3>
+        <p>Baccalauréat, puis licence en <em>Commercialisation des Produits et Services Sportifs</em> à l’ILEPS.</p>
+
+        <h3>• Matière / Projet marquant</h3>
+        <p>Les cours d’histoire et d’économie : ils m’ont aidé à comprendre les enjeux sociaux et économiques qui structurent les organisations.</p>
+
+        <h3>• Projets associatifs &amp; bénévolat</h3>
+        <p>Aux JO 2024 de Paris, j’étais bénévole au CDFAS (Athletica) à Ermont. J’ai participé à la construction des installations, à la préparation des équipements et au ravitaillement — une expérience logistique et humaine forte, dans un contexte international.</p>
+
+        <h3>• Expériences professionnelles</h3>
+        <p>1 mois en restauration en Écosse (amélioration de l’anglais), 2 mois chez Décathlon (service client), puis alternance chez Spotlag (événementiel) : gestion de projet, relation client et coordination d’équipes.</p>
+      </article>
+
+      <!-- 3. Compétences -->
+      <article class="card" id="competences" tabindex="-1" aria-labelledby="comp-title">
+        <h2 id="comp-title">3. Compétences</h2>
+
+        <h3>• Compétences techniques</h3>
+        <p>Gestion de projet, prospection, communication, négociation, développement de partenariats.</p>
+
+        <h3>• Soft skills</h3>
+        <p>Organisation (gestion de jusqu’à 20 projets/semaine en alternance), persévérance et adaptabilité. Je sais prioriser et rester efficace sous pression.</p>
+
+        <h3>• Outils</h3>
+        <p>Salesforce, Excel, Word, Canva et les principaux réseaux sociaux.</p>
+
+        <h3>• À mettre en avant</h3>
+        <p>Mon expérience en gestion de projet et ma capacité à entretenir des relations clients solides dans un environnement exigeant.</p>
+      </article>
+
+      <!-- 4. Réussites -->
+      <article class="card" id="reussites" tabindex="-1" aria-labelledby="reuss-title">
+        <h2 id="reuss-title">4. Réussites et fiertés</h2>
+
+        <h3>• Réalisations</h3>
+        <p>Terminer le semi-marathon de Paris ; actuellement en préparation pour le marathon de Paris. Ces défis illustrent mon engagement et ma discipline.</p>
+
+        <h3>• Défis personnels</h3>
+        <p>Changer d’établissement au collège et repartir à zéro : une leçon d’adaptabilité et de résilience.</p>
+
+        <h3>• Projets à montrer</h3>
+        <p>La Nuit du Volley et plusieurs missions réalisées chez Spotlag. Je prévois d’ajouter bientôt photos et documents pour illustrer ces projets.</p>
+
+        <h3>• Prochain challenge</h3>
+        <p>Le marathon de Paris (avril).</p>
+      </article>
+
+      <!-- 5. Aspirations -->
+      <article class="card" id="aspirations" tabindex="-1" aria-labelledby="aspir-title">
+        <h2 id="aspir-title">5. Aspirations</h2>
+
+        <h3>• Poste visé</h3>
+        <p>Un poste lié à l’intelligence artificielle, idéalement au croisement produit &amp; donnée.</p>
+
+        <h3>• Univers professionnel</h3>
+        <p>L’IA : un secteur en pleine expansion, riche en opportunités d’innovation et d’impact.</p>
+
+        <h3>• Compétences à développer</h3>
+        <p>Machine learning, data science et gestion de produits technologiques.</p>
+
+        <h3>• Job de rêve</h3>
+        <p>Un rôle flexible qui permet de voyager, d’avoir un impact réel et d’évoluer dans un environnement stimulant.</p>
+      </article>
+
+      <!-- 7. Conclure -->
+      <article class="card" id="conclure" tabindex="-1" aria-labelledby="concl-title">
+        <h2 id="concl-title">7. Conclusion</h2>
+
+        <h3>• Ce que je veux que l’on retienne</h3>
+        <p>Que je suis un profil atypique, adaptable et motivé, capable d’apporter de la valeur ajoutée à une équipe.</p>
+
+        <h3>• Premier sujet d’échange souhaité</h3>
+        <p>Je souhaite d’abord échanger sur mes expériences en gestion de projet et mon alternance, ainsi que sur mes aspirations en IA.</p>
+
+        <div class="card-actions">
+          <a class="btn primary" href="#" download="CV-Lilian-Bache.pdf">Télécharger mon CV (PDF)</a>
+          <a class="btn outline" href="mailto:ton.email@example.com">Me contacter</a>
         </div>
+      </article>
+
     </section>
 
-    <!-- Section 4: Compétences -->
-    <section id="competences">
-        <div class="container">
-            <h2>Compétences</h2>
-            <h3>Compétences pratiques :</h3>
-            <ul>
-                <li>Gestion de projet</li>
-                <li>Communication</li>
-                <li>Techniques de vente</li>
-            </ul>
-
-            <h3>Compétences personnelles (soft skills) :</h3>
-            <ul>
-                <li>Écoute</li>
-                <li>Esprit d’équipe</li>
-                <li>Initiative</li>
-                <li>Patience</li>
-                <li>Organisation</li>
-            </ul>
-
-            <h3>Outils maîtrisés :</h3>
-            <ul>
-                <li>Excel</li>
-                <li>Résamania</li>
-                <li>Réseaux sociaux</li>
-            </ul>
-
-            <h3>Compétences à mettre en avant :</h3>
-            <p>Mon expérience dans le monde du travail, qui m’a permis d'acquérir une grande rigueur et un sens aigu du service client, est un atout majeur que je souhaite mettre en avant dans mes futurs projets professionnels.</p>
-        </div>
-    </section>
-
-    <!-- Section 5: Réussites et Fiertés -->
-    <section id="reussites">
-        <div class="container">
-            <h2>Réussites et Fiertés</h2>
-            <p>Ma fierté réside dans ma capacité à relever des défis, qu’ils soient sportifs, associatifs ou professionnels. Par exemple, mon implication dans le bénévolat pour un tournoi de golf m’a appris à gérer des imprévus tout en maintenant une communication efficace avec les participants.</p>
-        </div>
-    </section>
-
-    <!-- Section 6: Aspirations -->
-    <section id="aspirations">
-        <div class="container">
-            <h2>Aspirations</h2>
-            <p>Je souhaite évoluer dans un poste qui allie gestion de projet et travail en équipe, avec un fort accent sur l’innovation. Le secteur de la gestion d’événements sportifs ou de la communication me passionne particulièrement.</p>
-            <p>Mon "job de rêve" serait de travailler sur des projets internationaux, alliant ma passion pour le sport et mon goût pour les défis culturels.</p>
-        </div>
-    </section>
-
-    <!-- Section 7: Personnalité professionnelle en images -->
-    <section id="images">
-        <div class="container">
-            <h2>Personnalité professionnelle en images</h2>
-            <h3>Citation inspirante :</h3>
-            <blockquote>"Là où il y a une volonté, il y a un chemin."</blockquote>
-
-            <h3>Symbole de mon parcours :</h3>
-            <p>Un ballon de football, représentant mon esprit d'équipe, ma passion pour les défis et mon dynamisme.</p>
-
-            <h3>Centres d'intérêt :</h3>
-            <ul>
-                <li>Sport (Football, course à pied)</li>
-                <li>Voyages (Découverte de nouveaux horizons)</li>
-                <li>Musique (Passion pour la musique classique et les concerts live)</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Section 8: Conclusion -->
-    <section id="conclusion">
-        <div class="container">
-            <h2>Conclusion</h2>
-            <p>Après avoir consulté mon site, j'aimerais que les recruteurs retiennent ma capacité à travailler en équipe, ma rigueur et mon envie constante d'apprendre. Si un recruteur devait me contacter, j'aimerais échanger avec lui sur mon expérience dans le monde du travail et mes ambitions professionnelles.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 [Ton Nom]. Tous droits réservés.</p>
-        </div>
+    <footer class="site-footer">
+      <div class="container">
+        <small>&copy; 2025 — Lilian Bache — Tous droits réservés</small>
+      </div>
     </footer>
+
+    <button class="back-to-top" aria-label="Retour en haut" title="Retour en haut">↑</button>
+
+  </main>
+
+  <script>
+    // apparition progressive + highlight nav
+    const cards = document.querySelectorAll('.card');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    }, { threshold: 0.12 });
+    cards.forEach(c => observer.observe(c));
+
+    // nav active link
+    const sections = document.querySelectorAll('article.card');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+        }
+      });
+    }, { threshold: 0.35 });
+    sections.forEach(s => navObserver.observe(s));
+
+    // back to top
+    const backBtn = document.querySelector('.back-to-top');
+    backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', () => {
+      backBtn.style.display = (window.scrollY > 300) ? 'flex' : 'none';
+    });
+    // init state
+    backBtn.style.display = 'none';
+  </script>
 </body>
 </html>
