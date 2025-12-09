@@ -4,23 +4,373 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio — Sébastian Adriaenssens</title>
-  <meta name="description" content="Portfolio de Sébastian Adriaenssens — parcours, compétences et aspirations en Commercial dans le monde du sport." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" role="navigation">
+      <div class="brand">
+        <div class="avatar">
+          <img id="navAvatar" style="width:100%; height:100%; object-fit:cover; border-radius:50%;" alt="SA">
+        </div>
+        <strong>Sébastian Adriaenssens</strong>
+      </div>
+      <div class="nav-links">
+        <a href="#profil">Profil</a>
+        <a href="#qui-suis-je">Qui suis-je</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#competences">Compétences</a>
+        <a href="#reussites">Réussites</a>
+        <a href="#aspirations">Aspirations</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container">
+        <h1>Portfolio Sébastian Adriaenssens</h1>
+        <p class="lead">Découvre mon parcours, mes compétences et mes projets — un profil orienté dans le commerce du sport &amp; l'événementiel.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#profil">Voir mon profil</a>
+          <a class="btn outline" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container content">
+      <!-- Section Profil avec Photo et Contact -->
+      <article class="card profile-card" id="profil">
+        <div class="profile-header">
+          <img id="profilePhoto" class="profile-photo" alt="Photo de Sébastian">
+          <div class="profile-info">
+            <h2 style="margin-top:0; color:#667eea;">Sébastian Adriaenssens</h2>
+            <p style="font-size:1.1rem; margin:0.5rem 0;"><strong>Étudiant en Licence Professionnelle CPSS</strong></p>
+            <p style="margin:0.5rem 0;">Recherche alternance (2 ans) dans l'événementiel sportif</p>
+          </div>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:s.adriaenssens@ileps.fr">s.adriaenssens@ileps.fr</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📱</span>
+            <div>
+              <strong>Téléphone</strong>
+              <a href="tel:+33787618880">07 87 61 88 80</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📍</span>
+            <div>
+              <strong>Localisation</strong>
+              <span>Chatou 78400 (Pass Navigo)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn primary" onclick="downloadCV()">📄 Télécharger mon CV (PDF)</button>
+        </div>
+      </article>
+
+      <!-- Qui suis-je -->
+      <article class="card" id="qui-suis-je">
+        <h2>1. Qui suis-je ? (Identité &amp; personnalité)</h2>
+
+        <h3>• Présentation</h3>
+        <p>Je suis quelqu'un de souriant et bienveillant, toujours en quête de nouvelles connaissances. J'aime apprendre, découvrir et relever de nouveaux défis. Ces expériences m'ont permis de développer une solide capacité d'organisation, une bonne gestion logistique et un véritable esprit d'équipe dans des environnements dynamiques et parfois concurrentiels.</p>
+
+        <h3>• Trois qualités professionnelles</h3>
+        <p><strong>Curieux, à l'écoute, sérieux.</strong></p>
+
+        <h3>• Valeurs principales</h3>
+        <p>Travail d'équipe, rigueur et patience.</p>
+
+        <h3>• Anecdote</h3>
+        <p>En première année de licence, j'ai été bénévole pour un tournoi de golf. J'ai pu découvrir et comprendre l'organisation autour d'un événement comme celui-ci.</p>
+      </article>
+
+      <!-- Parcours -->
+      <article class="card" id="parcours">
+        <h2>2. Parcours (académique &amp; extrascolaire)</h2>
+
+        <h3>• Formation</h3>
+        <p>📚 <strong>L1 CPSS</strong> à l'ILEPS (Cergy) - depuis septembre 2023<br>
+        📚 <strong>Baccalauréat général</strong> - Lycée Alain (Le Vésinet)<br>
+        Spécialités : Mathématiques / SVT</p>
+
+        <h3>• Expériences professionnelles</h3>
+        <p>
+        🏪 <strong>Intersport Levallois-Perret</strong> (avril-mai 2024)<br>
+        Vendeur rayons Chaussure et Sport Co • Fidélisation client • Gestion des flux • Merchandising<br><br>
+        
+        🏪 <strong>Go Sport Levallois-Perret</strong> (décembre 2023 - février 2024)<br>
+        Vendeur rayons Chaussure et Sport Co • Conseil client • Vente additionnelle<br><br>
+        
+        💼 <strong>Stage Mondial Pare-Brise</strong> - Rueil-Malmaison<br>
+        Service juridique • Recherches documentaires • Mise à jour bases de données
+        </p>
+
+        <h3>• Bénévolat marquant</h3>
+        <p>🏅 <strong>Jeux Olympiques Paris 2024</strong> - CDFAS (Athletica) à Ermont<br>
+        Construction des installations, préparation des équipements, ravitaillement. Une expérience logistique et humaine forte dans un contexte international.</p>
+      </article>
+
+      <!-- Compétences -->
+      <article class="card" id="competences">
+        <h2>3. Compétences</h2>
+
+        <h3>• Compétences techniques</h3>
+        <p>✅ Prospection et vente additionnelle<br>
+        ✅ Communication client et discours commercial<br>
+        ✅ Visual merchandising<br>
+        ✅ Gestion logistique et flux</p>
+
+        <h3>• Soft skills</h3>
+        <p>💪 Persévérance<br>
+        🔄 Adaptation<br>
+        🤝 Travail d'équipe<br>
+        ⏱️ Gestion des priorités sous pression</p>
+
+        <h3>• Outils informatiques</h3>
+        <p>Word • Excel • PowerPoint • Certification Pix • Canva</p>
+
+        <h3>• Langues</h3>
+        <p>🇬🇧 Anglais - Niveau intermédiaire<br>
+        🇪🇸 Espagnol - Niveau intermédiaire</p>
+      </article>
+
+      <!-- Réussites -->
+      <article class="card" id="reussites">
+        <h2>4. Réussites et fiertés</h2>
+
+        <h3>• Défi personnel</h3>
+        <p>Changer d'établissement au collège et repartir à zéro : une leçon d'adaptabilité et de résilience.</p>
+
+        <h3>• Expérience marquante</h3>
+        <p>Ma participation aux JO 2024 en tant que bénévole et mes missions chez Fitness Park.</p>
+
+        <h3>• Prochain challenge</h3>
+        <p>Voyager seul dans un pays étranger pour découvrir une nouvelle culture.</p>
+
+        <h3>• Centres d'intérêt</h3>
+        <p>🏋️ Musculation • ⚽ Football • 🎾 Tennis • 🎵 Musique • ✈️ Voyages en Europe</p>
+      </article>
+
+      <!-- Aspirations -->
+      <article class="card" id="aspirations">
+        <h2>5. Aspirations professionnelles</h2>
+
+        <h3>• Objectif de carrière</h3>
+        <p>🎯 Poste dans l'<strong>événementiel sportif</strong>, idéalement lié au football</p>
+
+        <h3>• Compétences à développer</h3>
+        <p>📚 Connaissances sectorielles approfondies<br>
+        🗂️ Organisation d'événements complexes<br>
+        🎤 Élocution et prise de parole en public</p>
+
+        <h3>• Vision long terme</h3>
+        <p>Un rôle qui me permet de voyager, d'avoir un impact réel et d'évoluer dans un environnement dynamique et stimulant.</p>
+      </article>
+
+      <!-- Contact -->
+      <article class="card profile-card" id="contact">
+        <h2 style="color:#667eea;">💬 Restons en contact</h2>
+
+        <p style="font-size:1.1rem; margin:1.5rem 0;">Je suis un profil atypique, adaptable et motivé, capable d'apporter de la valeur ajoutée à votre équipe. N'hésitez pas à me contacter pour échanger sur mes expériences et mes ambitions dans l'événementiel sportif !</p>
+
+        <div class="contact-grid" style="margin:2rem 0;">
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:s.adriaenssens@ileps.fr">s.adriaenssens@ileps.fr</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📱</span>
+            <div>
+              <strong>Téléphone</strong>
+              <a href="tel:+33787618880">07 87 61 88 80</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn primary" onclick="downloadCV()">📄 Télécharger mon CV</button>
+          <a class="btn outline" href="mailto:s.adriaenssens@ileps.fr">✉️ M'envoyer un email</a>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>&copy; 2025 — Sébastian Adriaenssens — Tous droits réservés</small>
+      </div>
+    </footer>
+
+    <button class="back-to-top" title="Retour en haut">↑</button>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    // Charger la photo utilisateur
+    const photoFile = null; // Sera chargé depuis un input file ou URL
+    
+    // Fonction pour télécharger le CV en PDF
+    function downloadCV() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+      
+      // Header
+      doc.setFontSize(22);
+      doc.setTextColor(37, 99, 235);
+      doc.text('SEBASTIAN ADRIAENSSENS', 105, 20, { align: 'center' });
+      
+      doc.setFontSize(12);
+      doc.setTextColor(0, 0, 0);
+      doc.text('Recherche alternance (2 ans) dans l\\'événementiel ou le commerce', 105, 30, { align: 'center' });
+      
+      // Contact
+      doc.setFontSize(10);
+      doc.text('07 87 61 88 80', 20, 45);
+      doc.text('s.adriaenssens@ileps.fr', 80, 45);
+      doc.text('Chatou 78400', 150, 45);
+      
+      // Compétences
+      doc.setFontSize(14);
+      doc.setTextColor(37, 99, 235);
+      doc.text('COMPETENCES', 20, 60);
+      
+      doc.setFontSize(10);
+      doc.setTextColor(0, 0, 0);
+      const competences = [
+        'Prospection et vente',
+        'Visual merchandising',
+        'Fidélisation client',
+        'Gestion logistique',
+        'Travail en équipe'
+      ];
+      competences.forEach((comp, i) => {
+        doc.text('• ' + comp, 20, 70 + (i * 6));
+      });
+      
+      // Outils
+      doc.setFontSize(14);
+      doc.setTextColor(37, 99, 235);
+      doc.text('OUTILS & LANGUES', 20, 110);
+      
+      doc.setFontSize(10);
+      doc.setTextColor(0, 0, 0);
+      doc.text('Word, Excel, PowerPoint', 20, 120);
+      doc.text('Certification Pix', 20, 126);
+      doc.text('Anglais (intermédiaire)', 20, 132);
+      doc.text('Espagnol (intermédiaire)', 20, 138);
+      
+      // Expériences
+      doc.setFontSize(14);
+      doc.setTextColor(37, 99, 235);
+      doc.text('EXPERIENCES PROFESSIONNELLES', 20, 158);
+      
+      doc.setFontSize(11);
+      doc.setTextColor(0, 0, 0);
+      doc.setFont(undefined, 'bold');
+      doc.text('Stage Intersport - Levallois-Perret', 20, 168);
+      doc.setFont(undefined, 'normal');
+      doc.setFontSize(9);
+      doc.text('Avril - Mai 2024', 20, 173);
+      doc.text('Vendeur rayon Chaussure et Sport Co', 20, 178);
+      doc.text('Fidélisation client, Gestion du flux', 20, 183);
+      
+      doc.setFontSize(11);
+      doc.setFont(undefined, 'bold');
+      doc.text('Stage Go Sport - Levallois-Perret', 20, 195);
+      doc.setFont(undefined, 'normal');
+      doc.setFontSize(9);
+      doc.text('Décembre 2023 - Février 2024', 20, 200);
+      doc.text('Vendeur rayon Chaussure et Sport Co', 20, 205);
+      doc.text('Visual merchandising, Travail en équipe', 20, 210);
+      
+      doc.setFontSize(11);
+      doc.setFont(undefined, 'bold');
+      doc.text('Stage Mondial Pare-Brise - Rueil Malmaison', 20, 222);
+      doc.setFont(undefined, 'normal');
+      doc.setFontSize(9);
+      doc.text('Service juridique', 20, 227);
+      doc.text('Recherches documentaires, Mise à jour BDD', 20, 232);
+      
+      // Formation
+      doc.setFontSize(14);
+      doc.setTextColor(37, 99, 235);
+      doc.text('DIPLOMES / FORMATIONS', 20, 250);
+      
+      doc.setFontSize(10);
+      doc.setTextColor(0, 0, 0);
+      doc.text('ILEPS - Licence professionnelle CPSS (Cergy)', 20, 260);
+      doc.text('Septembre 2023 : L1 CPSS', 20, 266);
+      doc.text('', 20, 272);
+      doc.text('Lycée Alain - Le Vésinet', 20, 278);
+      doc.text('Baccalauréat général - Spé Mathématiques/SVT', 20, 284);
+      
+      // Sauvegarder
+      doc.save('CV_Sebastian_Adriaenssens.pdf');
+    }
+    
+    // Animations d'apparition
+    const cards = document.querySelectorAll('.card');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    }, { threshold: 0.12 });
+    cards.forEach(c => observer.observe(c));
+
+    // Navigation active
+    const sections = document.querySelectorAll('article.card');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+        }
+      });
+    }, { threshold: 0.35 });
+    sections.forEach(s => navObserver.observe(s));
+
+    // Bouton retour en haut
+    const backBtn = document.querySelector('.back-to-top');
+    backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', () => {
+      backBtn.style.display = (window.scrollY > 300) ? 'flex' : 'none';
+    });
+  </script>
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --primary: #2563eb;
-      --primary-dark: #1e40af;
+      --primary: #667eea;
+      --primary-dark: #5a67d8;
       --text: #1f2937;
       --text-light: #6b7280;
       --bg: #f9fafb;
       --card-bg: #ffffff;
-      --border: #e5e7eb;
       --shadow: 0 1px 3px rgba(0,0,0,0.1);
       --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
     }
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-family: 'Inter', sans-serif;
       line-height: 1.6;
       color: var(--text);
       background: var(--bg);
@@ -51,7 +401,12 @@
       width: 45px;
       height: 45px;
       border-radius: 50%;
-      object-fit: cover;
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
       border: 2px solid var(--primary);
     }
     .nav-links {
@@ -114,6 +469,8 @@
       transition: all 0.2s;
       border: 2px solid transparent;
       cursor: pointer;
+      font-family: inherit;
+      font-size: 1rem;
     }
     .btn.primary {
       background: white;
@@ -126,6 +483,7 @@
     .btn.outline {
       border-color: white;
       color: white;
+      background: transparent;
     }
     .btn.outline:hover {
       background: white;
@@ -169,11 +527,9 @@
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .profile-section {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      border-radius: 1rem;
-      padding: 3rem;
+    .profile-card {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      border: 3px solid var(--primary);
     }
     .profile-header {
       display: flex;
@@ -187,37 +543,38 @@
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid white;
+      border: 4px solid var(--primary);
       box-shadow: var(--shadow-lg);
     }
-    .profile-info h2 {
-      margin: 0 0 0.5rem 0;
-      font-size: 2rem;
-    }
-    .profile-info p {
-      margin: 0;
-      opacity: 0.95;
-    }
-    .contact-info {
-      display: flex;
-      gap: 2rem;
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
       margin: 2rem 0;
-      flex-wrap: wrap;
     }
     .contact-item {
       display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 1.1rem;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem;
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: var(--shadow);
+    }
+    .contact-item .icon {
+      font-size: 1.5rem;
+    }
+    .contact-item strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      color: var(--text);
     }
     .contact-item a {
-      color: white;
+      color: var(--primary);
       text-decoration: none;
-      border-bottom: 2px solid transparent;
-      transition: border-color 0.2s;
     }
     .contact-item a:hover {
-      border-bottom-color: white;
+      text-decoration: underline;
     }
     .site-footer {
       background: var(--text);
@@ -252,198 +609,7 @@
       .nav { flex-direction: column; text-align: center; }
       .nav-links { justify-content: center; }
       .profile-header { flex-direction: column; text-align: center; }
-      .contact-info { flex-direction: column; }
     }
   </style>
-</head>
-<body>
-
-  <header class="site-header" role="banner">
-    <nav class="nav" role="navigation" aria-label="Navigation principale">
-      <div class="brand">
-        <img id="navPhoto" class="avatar" alt="Sébastian Adriaenssens">
-        <strong>Sébastian Adriaenssens</strong>
-      </div>
-      <div class="nav-links">
-        <a href="#profil">Profil</a>
-        <a href="#qui-suis-je">Qui suis-je</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#competences">Compétences</a>
-        <a href="#reussites">Réussites</a>
-        <a href="#aspirations">Aspirations</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="container">
-        <h1 id="hero-title">Portfolio Sébastian Adriaenssens</h1>
-        <p class="lead">Découvre mon parcours, mes compétences et mes projets — un profil orienté dans le commerce du sport &amp; l'événementiel.</p>
-        <div class="hero-ctas">
-          <a class="btn primary" href="#profil">Voir mon profil</a>
-          <a class="btn outline" href="#contact">Me contacter</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="container content">
-      <!-- Section Profil avec Photo et CV -->
-      <article class="card profile-section" id="profil" tabindex="-1">
-        <div class="profile-header">
-          <img id="profilePhoto" class="profile-photo" alt="Photo de Sébastian Adriaenssens">
-          <div class="profile-info">
-            <h2>Sébastian Adriaenssens</h2>
-            <p><strong>Étudiant en Licence Professionnelle CPSS</strong></p>
-            <p>Recherche alternance dans l'événementiel sportif</p>
-          </div>
-        </div>
-        
-        <div class="contact-info">
-          <div class="contact-item">
-            <span>📧</span>
-            <a href="mailto:s.adriaenssens@ileps.fr">s.adriaenssens@ileps.fr</a>
-          </div>
-          <div class="contact-item">
-            <span>📱</span>
-            <a href="tel:+33787618880">07 87 61 88 80</a>
-          </div>
-          <div class="contact-item">
-            <span>📍</span>
-            <span>Chatou 78400</span>
-          </div>
-        </div>
-
-        <div class="card-actions">
-          <button class="btn primary" onclick="downloadCV()">📄 Télécharger mon CV</button>
-        </div>
-      </article>
-
-      <!-- 1. Qui suis-je -->
-      <article class="card" id="qui-suis-je" tabindex="-1" aria-labelledby="qs-title">
-        <h2 id="qs-title">1. Qui suis-je ? (Identité &amp; personnalité)</h2>
-
-        <h3>• Comment te présenterais-tu en quelques phrases à quelqu'un qui ne te connaît pas ?</h3>
-        <p>Je suis quelqu'un de souriant et bienveillant, toujours en quête de nouvelles connaissances. J'aime apprendre, découvrir et relever de nouveaux défis. Ces expériences m'ont permis de développer une solide capacité d'organisation, une bonne gestion logistique et un véritable esprit d'équipe dans des environnements dynamiques et parfois concurrentiels. Je fais preuve de persévérance et d'adaptabilité, deux qualités essentielles pour mener à bien chaque projet.</p>
-
-        <h3>• Trois mots (ou qualités) pour ta personnalité dans un contexte professionnel ?</h3>
-        <p><strong>Curieux, à l'écoute, sérieux.</strong></p>
-
-        <h3>• Tes valeurs principales ?</h3>
-        <p>Travail d'équipe, rigueur et patience.</p>
-
-        <h3>• Anecdote</h3>
-        <p>En première année de licence, j'ai été bénévole pour un tournoi de golf. J'ai pu découvrir et comprendre l'organisation autour d'un évènement comme celui-ci.</p>
-      </article>
-
-      <!-- 2. Parcours -->
-      <article class="card" id="parcours" tabindex="-1" aria-labelledby="parcours-title">
-        <h2 id="parcours-title">2. Parcours (académique &amp; extrascolaire)</h2>
-
-        <h3>• Diplômes</h3>
-        <p>Baccalauréat général (spécialité Mathématiques/SVT), puis licence en <em>Commercialisation des Produits et Services Sportifs</em> à l'ILEPS.</p>
-
-        <h3>• Matière / Projet marquant</h3>
-        <p>Les cours d'histoire et d'économie : ils m'ont aidé à comprendre les enjeux sociaux et économiques qui structurent les organisations.</p>
-
-        <h3>• Projets associatifs &amp; bénévolat</h3>
-        <p>Aux JO 2024 de Paris, j'étais bénévole au CDFAS (Athletica) à Ermont. J'ai participé à la construction des installations, à la préparation des équipements et au ravitaillement — une expérience logistique et humaine forte, dans un contexte international.</p>
-
-        <h3>• Expériences professionnelles</h3>
-        <p><strong>Intersport Levallois-Perret</strong> (avril-mai 2024) : Vendeur rayon chaussure et Sport Co, fidélisation client, gestion des flux.<br>
-        <strong>Go Sport Levallois-Perret</strong> (décembre 2023-février 2024) : Vendeur rayon chaussure et Sport Co, conseil client, merchandising.<br>
-        <strong>Stage Fitness Park Rueil-Malmaison</strong> (alternance) : Relation client, ventes d'abonnements, démarchage téléphonique.</p>
-      </article>
-
-      <!-- 3. Compétences -->
-      <article class="card" id="competences" tabindex="-1" aria-labelledby="comp-title">
-        <h2 id="comp-title">3. Compétences</h2>
-
-        <h3>• Compétences techniques</h3>
-        <p>Prospection, communication, merchandising, ventes additionnelles, discours commercial.</p>
-
-        <h3>• Soft skills</h3>
-        <p>Persévérance, adaptabilité, initiative, patience. Je sais prioriser et rester efficace sous pression.</p>
-
-        <h3>• Outils & Langues</h3>
-        <p><strong>Outils :</strong> Word, Excel, PowerPoint, Certification Pix, Canva, réseaux sociaux.<br>
-        <strong>Langues :</strong> Anglais et Espagnol (niveau intermédiaire).</p>
-
-        <h3>• À mettre en avant</h3>
-        <p>Mon expérience en gestion de projet et ma capacité à entretenir des relations clients solides dans un environnement exigeant.</p>
-      </article>
-
-      <!-- 4. Réussites -->
-      <article class="card" id="reussites" tabindex="-1" aria-labelledby="reuss-title">
-        <h2 id="reuss-title">4. Réussites et fiertés</h2>
-
-        <h3>• Défis personnels</h3>
-        <p>Changer d'établissement au collège et repartir à zéro : une leçon d'adaptabilité et de résilience.</p>
-
-        <h3>• Projets à montrer</h3>
-        <p>Mes missions réalisées chez Fitness Park et mon expérience bénévole aux JO 2024 de Paris.</p>
-
-        <h3>• Prochain challenge</h3>
-        <p>Voyager seul dans un pays étranger.</p>
-      </article>
-
-      <!-- 5. Aspirations -->
-      <article class="card" id="aspirations" tabindex="-1" aria-labelledby="aspir-title">
-        <h2 id="aspir-title">5. Aspirations</h2>
-
-        <h3>• Poste visé</h3>
-        <p>Un poste lié à l'événementiel dans le domaine du football.</p>
-
-        <h3>• Univers professionnel</h3>
-        <p>Événementiel sportif.</p>
-
-        <h3>• Compétences à développer</h3>
-        <p>Connaissances sectorielles, organisation événementielle, élocution publique.</p>
-
-        <h3>• Job de rêve</h3>
-        <p>Un rôle flexible qui permet de voyager, d'avoir un impact réel et d'évoluer dans un environnement stimulant.</p>
-      </article>
-
-      <!-- 6. Contact & Conclusion -->
-      <article class="card profile-section" id="contact" tabindex="-1" aria-labelledby="contact-title">
-        <h2 id="contact-title" style="color: white;">Contact & Conclusion</h2>
-
-        <h3 style="color: white;">• Ce que je veux que l'on retienne</h3>
-        <p style="color: white; opacity: 0.95;">Que je suis un profil atypique, adaptable et motivé, capable d'apporter de la valeur ajoutée à une équipe.</p>
-
-        <h3 style="color: white;">• Premier sujet d'échange souhaité</h3>
-        <p style="color: white; opacity: 0.95;">Je souhaite d'abord échanger sur mes expériences passées dans le monde du travail et mes ambitions dans l'événementiel sportif.</p>
-
-        <div class="contact-info" style="margin: 2rem 0;">
-          <div class="contact-item">
-            <span>📧</span>
-            <a href="mailto:s.adriaenssens@ileps.fr">s.adriaenssens@ileps.fr</a>
-          </div>
-          <div class="contact-item">
-            <span>📱</span>
-            <a href="tel:+33787618880">07 87 61 88 80</a>
-          </div>
-        </div>
-
-        <div class="card-actions">
-          <button class="btn primary" onclick="downloadCV()">📄 Télécharger mon CV</button>
-          <a class="btn outline" href="mailto:s.adriaenssens@ileps.fr">✉️ M'envoyer un email</a>
-        </div>
-      </article>
-
-    </section>
-
-    <footer class="site-footer">
-      <div class="container">
-        <small>&copy; 2025 — Sébastian Adriaenssens — Tous droits réservés</small>
-      </div>
-    </footer>
-
-    <button class="back-to-top" aria-label="Retour en haut" title="Retour en haut">↑</button>
-
-  </main>
-
-  <script>
-    // Convertir votre image uploadée en base64 et l'afficher
-    const photoData = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADIAMgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+</body>
+</html>
